@@ -33,6 +33,13 @@
 		h1, h2, h3, h4, h5, h6, label { color: #fff; }
 		h1 { text-transform: uppercase; }
 		#countdown { line-height: 1.1em; }
+		
+		#social img {
+  			height: 100px;
+  			width: 100px;
+  			padding-bottom: 10px;
+		}
+		
 	</style>
 </head>
 
@@ -41,12 +48,16 @@
 		<div class="pure-u-1">
 			<h1>Stay tuned</h1>
 			<h2>something new is coming here</h2>
+			<div id="social">
+  				<a href="https://www.instagram.com/potrpots/"><img src="https://raw.githubusercontent.com/potr-pots/potrpots/master/instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png" alt="Instagram"></a>
+			</div>
 			<div id="countdown">
 				<span class="days">00</span>&nbsp;<span class="timeRefDays">days</span>
 				<span class="hours">00</span>&nbsp;<span class="timeRefHours">hours</span>
 				<span class="minutes">00</span>&nbsp;<span class="timeRefMinutes">minutes</span>
 				<span class="seconds">00</span>&nbsp;<span class="timeRefSeconds">seconds</span>
 			</div>
+			
 		</div>
 	</div>
 </body>
@@ -76,3 +87,5 @@ $.backstretch([
   $("#countdown").countdown({date:" 20 June 2019 23:23:23",format:"on"})});
 </script>
 </html>
+
+
